@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "gegevenexamenjuni2023",
+    "dateExported": "2023-06-06T11:25:58.515Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7cb81b11-8e52-40c3-90b7-1d6daa41f575",
+            "colId": "8052d2af-227e-4f72-8d0f-98110a02c396",
+            "containerId": "",
+            "name": "http://localhost:8080/api/courses",
+            "url": "http://localhost:8080/api/courses",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-21T08:56:17.094Z",
+            "modified": "2023-05-21T08:56:35.528Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b38001ff-f8a2-46cb-92ef-75d434fa634f",
+            "colId": "8052d2af-227e-4f72-8d0f-98110a02c396",
+            "containerId": "",
+            "name": "http://localhost:8080/api/courses/add",
+            "url": "http://localhost:8080/api/courses/add",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-05-21T08:58:22.648Z",
+            "modified": "2023-06-06T11:25:55.636Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\":\"Back-End\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "436d3209-ed46-45fb-a3c7-6d9f78de2c39",
+            "colId": "8052d2af-227e-4f72-8d0f-98110a02c396",
+            "containerId": "",
+            "name": "http://localhost:808/api/modules",
+            "url": "http://localhost:8080/api/modules",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-05-21T08:58:33.780Z",
+            "modified": "2023-05-21T08:58:40.529Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "801639ce-d158-40cf-bd91-36e8f42db465",
+            "colId": "8052d2af-227e-4f72-8d0f-98110a02c396",
+            "containerId": "",
+            "name": "http://localhost:8080/api/modules/add",
+            "url": "http://localhost:8080/api/modules/add",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-05-21T08:58:46.178Z",
+            "modified": "2023-05-21T08:58:50.043Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\": \"Java\"}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
